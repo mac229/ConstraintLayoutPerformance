@@ -44,7 +44,6 @@ class LayoutTest {
         Log.i(TAG, "item 4")
         Log.i(TAG, "$CONSTRAINT ${measureTime(R.layout.item4_constraint)}")
         Log.i(TAG, "$LINEAR ${measureTime(R.layout.item4_linear)}")
-        //Log.i(TAG, "$RELATIVE ${measureTime(R.layout.item3_relative)}")
     }
 
     private fun measureTime(@LayoutRes layoutRes: Int): Long {
@@ -63,7 +62,7 @@ class LayoutTest {
     }
 
     companion object {
-        private const val TAG = "###hash"
+        private const val TAG = "###test"
 
         private const val REPEATS = 1_000
 
